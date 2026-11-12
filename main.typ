@@ -23,6 +23,8 @@
   university-location: "Stuttgart",
   university-short: "DHBW",
   // for more options check the package documentation (https://typst.app/universe/package/clean-dhbw)
+  appendix: [#include "chapters/99_Anhang.typ"],
+
 )
 
 
