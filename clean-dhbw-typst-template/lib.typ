@@ -11,6 +11,12 @@
 // Workaround for the lack of an `std` scope.
 #let std-bibliography = bibliography
 
+// Marks unfinished passages in red so they are easy to spot before submission.
+#let todo(body) = {
+  set text(fill: red)
+  body
+}
+
 #let clean-dhbw(
   title: none,
   authors: (:),
